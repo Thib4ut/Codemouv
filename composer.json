@@ -1,0 +1,21 @@
+{
+    "name": "codemouv/codemouv",
+    "description": "La nouvelle plateforme d'apprentissage en ligne",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Thibault.INC",
+            "email": "39965137+Thib4ut@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        "symfony/var-dumper": "^5.0",
+        "altorouter/altorouter": "^2.0",
+        "filp/whoops": "^2.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}
