@@ -1,0 +1,34 @@
+/*
+
+Auteur : Thibault (Thibault.Inc)
+Fichier : defaults.css
+Description : Fichier de configuration des paramètres globaux au site (couleurs, fonts, etc...)
+Licence : Thibault.Inc (c) 2019 All rights reserved 
+
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif|Roboto&display=swap');
+
+:root {
+    --color-primary: #6053db;
+    --color-secondary: #ffffff;
+    /* Fonts */
+    --primary-font: 'Roboto', sans-serif;
+    --title-font: 'Bree Serif', cursive;
+}
+
+* {
+    font-family: var(--primary-font);
+}
+
+h1, h2, h3 {
+    font-family: var(--title-font);
+}
+
+/* Navigation */
+
+div.nav--responsive {
+    display: none;
+    overflow: hidden;
+    opacity: 0;
+}
