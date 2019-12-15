@@ -25,6 +25,16 @@ h1, h2, h3 {
     font-family: var(--title-font);
 }
 
+body {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
 /* Navigation */
 
 div.nav--responsive {
